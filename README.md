@@ -240,6 +240,10 @@ go vet ./...         # static checks
 gofmt -l .           # list unformatted files
 ```
 
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE).
+
 ## Status
 
 This is the **v1 walking skeleton** — fully working: scheduler, worker, the role-aware interactive shell (login, wizards, daemon control), the `monitor` TUI with run-history drill-down, event-gated scheduling, database-enforced RBAC across six roles, and a `service_events` audit log attributing every daemon start/stop to a person. Intentionally deferred (schema columns already exist): stale-lease reclaim, retries, overlap and misfire policy, `LISTEN/NOTIFY` low-latency wake-ups, per-run output capture, notification delivery, event GC, and a file-watcher daemon that emits events.
