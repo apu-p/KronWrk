@@ -1,0 +1,9 @@
+.claude/.DS_Store
+
+# Compiled binaries
+/kronwrk
+Kronwrk_Architecture.docx
+.DS_Store
+
+# Internal retrospective, not for the repo
+docs/development_retrospective.md
